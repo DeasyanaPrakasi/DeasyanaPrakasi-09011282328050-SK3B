@@ -1,11 +1,15 @@
 # 50 COMMAND FOR TERMINAL LINUX
-# 1. Lsb_release -a
-![1](https://github.com/user-attachments/assets/a14fcf52-4c28-45c9-93dc-3f259446c1f1)
+# 1. Lsb_release -a 
 Fungsi : menunjukkan informasi tentang distribusi Linux.
 
-# 2. echo “string”
-![2](https://github.com/user-attachments/assets/c6ab1b81-e2db-4d6e-90a7-42689e91036d)
+![1](https://github.com/user-attachments/assets/a14fcf52-4c28-45c9-93dc-3f259446c1f1)
+
+
+# 2. echo “string” 
 Fungsi : mencetak string yang dibuat dan ditampilkan atau diprint di terminal
+
+![2](https://github.com/user-attachments/assets/c6ab1b81-e2db-4d6e-90a7-42689e91036d)
+
 
 # 3. cal
 ![3](https://github.com/user-attachments/assets/5d68d7b1-c855-42d0-8681-16303217e998)
