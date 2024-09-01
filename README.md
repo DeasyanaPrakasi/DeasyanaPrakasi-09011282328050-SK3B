@@ -237,6 +237,22 @@ Fungsi : menampilkan nama host
 ![47](https://github.com/user-attachments/assets/c3354e70-a0dd-44fc-8786-9283c38d1cc7)
 
 # 48. id
+Fungsi : menampilkan informasi id pengguna saat ini
+
 ![48](https://github.com/user-attachments/assets/6ff7d09d-1936-4229-9d2b-cf1ee50525c2) 
 
+# 49. free -m
+Fungsi : menampilkan informasi ID penggunaan memori (RAM) dalam megabyte
+
+![49](https://github.com/user-attachments/assets/7a4d5758-0cd9-4938-95e9-6b39f940daff)
+
+# 50. last
+Fungsi : melacak aktivitas pengguna seperti reboot atau shutdown
+
+![50](https://github.com/user-attachments/assets/9bb3f2c1-664c-4bd8-b6a6-b18d0b99e8b3)
+
+# 51. clear
+Fungsi : menghapus semua command yang ada di termina
+
+![51](https://github.com/user-attachments/assets/8017bcb9-6fef-47ab-a024-206a49821c00)
 
