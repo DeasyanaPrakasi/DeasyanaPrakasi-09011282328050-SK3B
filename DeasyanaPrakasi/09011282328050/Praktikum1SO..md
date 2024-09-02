@@ -40,7 +40,7 @@ Untuk menginstal Ubuntu di VirtualBox, ikuti langkah-langkah berikut:
 
 2. **Buat Mesin Virtual di VirtualBox:**
    -  Jalankan aplikasi VirtualBox.
-   -  Klik tombol “New” untuk membuat mesin virtual baru.
+   -  Klik tombol “Baru” untuk membuat mesin virtual baru.
     
         ![Screenshot (635)](https://github.com/user-attachments/assets/3a80a0dc-f01f-4d83-8344-e0f5ab8b8ac8)
 
@@ -49,21 +49,21 @@ Untuk menginstal Ubuntu di VirtualBox, ikuti langkah-langkah berikut:
         ![Screenshot (629)](https://github.com/user-attachments/assets/c3fe06d8-5c8d-4803-a234-c176f95a587f)
 
    -  Pilih jumlah RAM yang akan dialokasikan untuk mesin virtual. 
-   -  Pilih opsi “Create a virtual hard disk now” .
-   -  Pilih “VDI (VirtualBox Disk Image)” dan klik “Next”.
+   -  Pilih opsi “Buat Sebuah Virtual Sekarang” .
+   -  Pilih “VDI (VirtualBox Disk Image)” dan klik “Lanjut”.
      
         ![Screenshot (631)](https://github.com/user-attachments/assets/d3cb05ed-632d-4b51-b348-88619093ce4c)
         ![Screenshot (630)](https://github.com/user-attachments/assets/63212e35-2af6-42f7-b972-2bd4c8559d77)
 
 
 3. **Konfigurasi Mesin Virtual:**
-   -  Pilih mesin virtual yang baru dibuat dari daftar dan klik “Settings”.
+   -  Pilih mesin virtual yang baru dibuat dari daftar dan klik “Pengaturan”.
    -  Atur Media Instalasi
      
         ![Screenshot (633)](https://github.com/user-attachments/assets/bbea2dd7-5ec4-46b9-bf9f-a7226c291d31)
 
      - Klik “Storage” di panel kiri.
-     - Klik ikon disk kosong di bawah “Controller: IDE”, lalu klik ikon disk di sebelah kanan dan pilih “Choose a disk file”. Pilih file ISO Ubuntu yang telah diunduh.
+     - Klik ikon disk kosong di bawah “Pengendali: IDE”, lalu klik ikon disk di sebelah kanan dan pilih “Choose a disk file”. Pilih file ISO Ubuntu yang telah diunduh.
        
           ![Screenshot (634)](https://github.com/user-attachments/assets/517406da-75fe-427d-8738-d5f4e46490a0)
 
