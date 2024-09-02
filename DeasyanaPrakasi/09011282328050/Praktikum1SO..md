@@ -32,13 +32,13 @@ Linux juga menggunakan berbagai jenis sistem berkas, masing-masing dengan fungsi
 ## Pembahasan
 ### Instalasansi Ubuntu
 
-Untuk menginstal Ubuntu di VirtualBox, ikuti langkah-langkah berikut:
-
 1. **Persiapan:**
+   
    -  Kunjungi situs web Ubuntu dan download file ISO dari versi Ubuntu yang terbaru.
    -  Download dan instal Oracle VM VirtualBox dari situs web resminya.
 
 2. **Buat Mesin Virtual di VirtualBox:**
+   
    -  Jalankan aplikasi VirtualBox.
    -  Klik tombol “Baru” untuk membuat mesin virtual baru.
     
@@ -57,6 +57,7 @@ Untuk menginstal Ubuntu di VirtualBox, ikuti langkah-langkah berikut:
 
 
 3. **Konfigurasi Mesin Virtual:**
+   
    -  Pilih mesin virtual yang baru dibuat dari daftar dan klik “Pengaturan”.
    -  Atur Media Instalasi
      
@@ -69,6 +70,7 @@ Untuk menginstal Ubuntu di VirtualBox, ikuti langkah-langkah berikut:
 
 
 4. **Instal Ubuntu:**
+   
    -  Klik “Start” untuk menjalankan mesin virtual.
    -  Ketika mesin virtual boot dari ISO Ubuntu, pilih “Try and Install Ubuntu” pada layar instalasi Ubuntu.
      
@@ -97,22 +99,21 @@ Untuk menginstal Ubuntu di VirtualBox, ikuti langkah-langkah berikut:
 
    - Tunggu hingga proses instalasi selesai. Ini akan memakan waktu beberapa menit.
 
-       ![IMG-20240902-WA0029](https://github.com/user-attachments/assets/9fc687b2-30c5-4b9a-af28-db97295809c8)
+      ![IMG-20240902-WA0030](https://github.com/user-attachments/assets/354456dc-5eeb-4605-b534-489a79747ce4)
+
      
-5. **Selesai dan Reboot:**
-   - Setelah instalasi selesai, Anda akan diminta untuk me-restart mesin virtual. Klik “Restart Now”.
 
 6. **Gunakan Ubuntu:**
    - **Masuk ke Ubuntu:**  masuk menggunakan akun yang telah dibuat selama instalasi.
+     
 
-## Pentingnya saat instalasi memilih “/” pada opsi Mount Point 
+### Pentingnya saat instalasi memilih “/” pada opsi Mount Point 
    
 Memilih “/” sebagai opsi Mount Point saat menginstal Linux sangat penting karena ini adalah tempat utama di mana seluruh sistem operasi akan disimpan. Partisi dengan mount point "/" adalah tempat di mana semua file sistem, aplikasi, dan struktur direktori seperti `/home` dan `/etc` akan berada. Ini memastikan bahwa semua bagian sistem operasi tersimpan dengan rapi dan sistem berjalan dengan baik. Tanpa partisi ini, sistem operasi tidak akan memiliki tempat untuk disimpan dan tidak bisa berfungsi dengan benar.
 
 Selain itu, memilih "/" juga mempengaruhi bagaimana ruang disk dikelola dan bagaimana sistem dipelihara. Jika Anda hanya memiliki satu partisi dengan mount point "/", semua data sistem operasi akan berada di situ, membuat pencadangan dan pemulihan lebih mudah. Dalam pengaturan yang lebih kompleks, Anda mungkin memilih untuk memisahkan data pengguna dari sistem operasi, misalnya dengan membuat partisi terpisah untuk `/home`. Ini bisa membantu dalam mengelola ruang disk dan menjaga data tetap aman.
 
-## penjelasan Mengenai ext4, ext3, swap, ntfs, fat32,btrfs 
-
+### penjelasan Mengenai ext4, ext3, swap, ntfs, fat32,btrfs 
 
 - ext4 (Fourth Extended Filesystem):
 
@@ -137,5 +138,9 @@ FAT32 adalah sistem file yang lebih sederhana dan lebih lama dibandingkan NTFS d
 - btrfs (B-tree File System):
   
 btrfs adalah sistem file modern untuk Linux yang dirancang untuk memberikan fitur-fitur canggih dan manajemen data yang fleksibel. Ini menawarkan dukungan untuk snapshot dan kloning, memungkinkan pencadangan dan pemulihan data yang lebih mudah. btrfs juga menyediakan integritas data melalui checksumming dan kemampuan untuk mengelola volume secara dinamis dengan fitur seperti RAID dan kompresi.
+
+## Kesimpulan
+
+Kesimpulan dari praktikum ini adalah bahwa proses instalasi Linux, khususnya Ubuntu, sangat penting untuk memahami dan mengelola sistem operasi berbasis open source. Memilih direktori root ("/") sebagai tempat utama sangat penting karena semua file sistem dan aplikasi akan disimpan di sana, sehingga sistem bisa berjalan dengan baik dan teratur. Selain itu, penting juga untuk memahami berbagai jenis sistem file seperti ext4, ext3, swap, NTFS, FAT32, dan btrfs karena masing-masing memiliki kelebihan dan fungsi yang berbeda. Praktikum ini tidak hanya mengajarkan cara menginstal, tetapi juga memberi wawasan tentang bagaimana sistem file memengaruhi kinerja dan stabilitas sistem operasi Linux.
 
 
