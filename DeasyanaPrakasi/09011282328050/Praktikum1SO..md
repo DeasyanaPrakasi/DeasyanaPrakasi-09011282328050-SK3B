@@ -9,11 +9,11 @@ Dalam praktikum ini, kita juga akan membahas beberapa konsep penting tentang sis
 
 ## Tujuan
 
-Mengetahui prosedur instalasi pada sistem operasi linux
+- Mengetahui prosedur instalasi pada sistem operasi linux
 
-Mampu menjalankan instalasi melalui Graphic User Interface (GUI) maupun Command Line Linux
+- Mampu menjalankan instalasi melalui Graphic User Interface (GUI) maupun Command Line Linux
 
-Mampu menganalisis proses instalasi
+- Mampu menganalisis proses instalasi
 
 ## Alat & Bahan
 
@@ -35,54 +35,76 @@ Linux juga menggunakan berbagai jenis sistem berkas, masing-masing dengan fungsi
 Untuk menginstal Ubuntu di VirtualBox, ikuti langkah-langkah berikut:
 
 1. **Persiapan:**
-   - **Unduh Ubuntu ISO:** Kunjungi situs web Ubuntu dan unduh file ISO dari versi Ubuntu yang diinginkan.
-   - **Unduh dan Instal VirtualBox:** Unduh dan instal Oracle VM VirtualBox dari situs web resminya.
+   -  Kunjungi situs web Ubuntu dan unduh file ISO dari versi Ubuntu yang diinginkan.
+   -  Unduh dan instal Oracle VM VirtualBox dari situs web resminya.
 
 2. **Buat Mesin Virtual di VirtualBox:**
    -  Jalankan aplikasi VirtualBox.
    -  Klik tombol “New” untuk membuat mesin virtual baru.
     
-    ![Screenshot (635)](https://github.com/user-attachments/assets/3a80a0dc-f01f-4d83-8344-e0f5ab8b8ac8)
+        ![Screenshot (635)](https://github.com/user-attachments/assets/3a80a0dc-f01f-4d83-8344-e0f5ab8b8ac8)
 
    - Masukkan nama untuk mesin virtual (misalnya, “Ubuntu”), pilih tipe “Linux” dan versi “Ubuntu (64-bit)”.
    
-     ![Screenshot (629)](https://github.com/user-attachments/assets/c3fe06d8-5c8d-4803-a234-c176f95a587f)
+        ![Screenshot (629)](https://github.com/user-attachments/assets/c3fe06d8-5c8d-4803-a234-c176f95a587f)
 
    -  Pilih jumlah RAM yang akan dialokasikan untuk mesin virtual. 
    -  Pilih opsi “Create a virtual hard disk now” dan klik “Create”.
    -  Pilih “VDI (VirtualBox Disk Image)” dan klik “Next”.
-     ![Screenshot (631)](https://github.com/user-attachments/assets/d3cb05ed-632d-4b51-b348-88619093ce4c)
-     ![Screenshot (630)](https://github.com/user-attachments/assets/63212e35-2af6-42f7-b972-2bd4c8559d77)
+     
+        ![Screenshot (631)](https://github.com/user-attachments/assets/d3cb05ed-632d-4b51-b348-88619093ce4c)
+        ![Screenshot (630)](https://github.com/user-attachments/assets/63212e35-2af6-42f7-b972-2bd4c8559d77)
 
 
 3. **Konfigurasi Mesin Virtual:**
    -  Pilih mesin virtual yang baru dibuat dari daftar dan klik “Settings”.
    -  Atur Media Instalasi
-     ![Screenshot (633)](https://github.com/user-attachments/assets/bbea2dd7-5ec4-46b9-bf9f-a7226c291d31)
+     
+        ![Screenshot (633)](https://github.com/user-attachments/assets/bbea2dd7-5ec4-46b9-bf9f-a7226c291d31)
 
      - Klik “Storage” di panel kiri.
      - Klik ikon disk kosong di bawah “Controller: IDE”, lalu klik ikon disk di sebelah kanan dan pilih “Choose a disk file”. Pilih file ISO Ubuntu yang telah diunduh.
        
-       ![Screenshot (634)](https://github.com/user-attachments/assets/517406da-75fe-427d-8738-d5f4e46490a0)
+          ![Screenshot (634)](https://github.com/user-attachments/assets/517406da-75fe-427d-8738-d5f4e46490a0)
 
 
 4. **Instal Ubuntu:**
    -  Klik “Start” untuk menjalankan mesin virtual.
    -  Ketika mesin virtual boot dari ISO Ubuntu, pilih “Try and Install Ubuntu” pada layar instalasi Ubuntu.
      
-     ![IMG-20240902-WA0002](https://github.com/user-attachments/assets/d77a4eb7-ed8f-42e3-966e-7624cb461331)
+        ![IMG-20240902-WA0002](https://github.com/user-attachments/assets/d77a4eb7-ed8f-42e3-966e-7624cb461331)
 
-     - Pilih bahasa dan lokasi sesuai preferensi.
-       ![IMG-20240902-WA0004](https://github.com/user-attachments/assets/dbf07c6e-9d07-4c0a-ac15-40bd06e1f48d)
+   - Pilih bahasa dan lokasi sesuai preferensi.
+       
+        ![IMG-20240902-WA0004](https://github.com/user-attachments/assets/dbf07c6e-9d07-4c0a-ac15-40bd06e1f48d)
        
 
-     - **Koneksi Internet:** Pilih opsi untuk terhubung ke internet jika diperlukan.
+   - Pilih opsi untuk terhubung ke internet jika diperlukan.
        
-     - **Pilih Jenis Instalasi:** Pilih opsi “Erase disk and install Ubuntu” untuk menginstal Ubuntu di hard disk virtual.
-     - **Siapkan Partisi:** Ubuntu akan secara otomatis mengatur partisi pada hard disk virtual. Anda dapat memilih “Install Now” untuk melanjutkan.
-     - **Masukkan Informasi Akun:** Masukkan informasi seperti nama, nama pengguna, dan kata sandi.
-     - **Proses Instalasi:** Tunggu hingga proses instalasi selesai. Ini akan memakan waktu beberapa menit.
+       ![IMG-20240902-WA0026](https://github.com/user-attachments/assets/07a034fb-b934-4b54-b52b-d23d8c92c3b1)
+
+   - Pilih opsi “Erase disk and install Ubuntu” untuk menginstal Ubuntu di hard disk virtual.
+       
+       ![IMG-20240902-WA0007](https://github.com/user-attachments/assets/0477fbeb-056c-4ede-95cd-9a7d6cb25c7c)
+
+   - Ubuntu akan secara otomatis mengatur partisi pada hard disk virtual. Pilih “Install Now” untuk melanjutkan.
+  
+        ![IMG-20240902-WA0025](https://github.com/user-attachments/assets/573835b2-cc6c-4c43-a42a-a8b5b7ec7415)
+
+   - Masukkan informasi seperti nama, nama pengguna, dan kata sandi.
+  
+       ![IMG-20240902-WA0031](https://github.com/user-attachments/assets/734dea31-6343-4776-8188-47f1bdf18ce4)
+
+   - Tunggu hingga proses instalasi selesai. Ini akan memakan waktu beberapa menit.
+
+       ![IMG-20240902-WA0029](https://github.com/user-attachments/assets/9fc687b2-30c5-4b9a-af28-db97295809c8)
+     
+5. **Selesai dan Reboot:**
+   - Setelah instalasi selesai, Anda akan diminta untuk me-restart mesin virtual. Klik “Restart Now”.
+
+6. **Gunakan Ubuntu:**
+   - **Masuk ke Ubuntu:**  masuk menggunakan akun yang telah dibuat selama instalasi.
+   
 
 
 
-![IMG-20240902-WA0002](https://github.com/user-attachments/assets/677fc157-a374-4413-a00f-25a40d71b123)
