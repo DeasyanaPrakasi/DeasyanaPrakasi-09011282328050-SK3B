@@ -35,8 +35,8 @@ Linux juga menggunakan berbagai jenis sistem berkas, masing-masing dengan fungsi
 Untuk menginstal Ubuntu di VirtualBox, ikuti langkah-langkah berikut:
 
 1. **Persiapan:**
-   -  Kunjungi situs web Ubuntu dan unduh file ISO dari versi Ubuntu yang diinginkan.
-   -  Unduh dan instal Oracle VM VirtualBox dari situs web resminya.
+   -  Kunjungi situs web Ubuntu dan download file ISO dari versi Ubuntu yang terbaru.
+   -  Download dan instal Oracle VM VirtualBox dari situs web resminya.
 
 2. **Buat Mesin Virtual di VirtualBox:**
    -  Jalankan aplikasi VirtualBox.
@@ -49,7 +49,7 @@ Untuk menginstal Ubuntu di VirtualBox, ikuti langkah-langkah berikut:
         ![Screenshot (629)](https://github.com/user-attachments/assets/c3fe06d8-5c8d-4803-a234-c176f95a587f)
 
    -  Pilih jumlah RAM yang akan dialokasikan untuk mesin virtual. 
-   -  Pilih opsi “Create a virtual hard disk now” dan klik “Create”.
+   -  Pilih opsi “Create a virtual hard disk now” .
    -  Pilih “VDI (VirtualBox Disk Image)” dan klik “Next”.
      
         ![Screenshot (631)](https://github.com/user-attachments/assets/d3cb05ed-632d-4b51-b348-88619093ce4c)
