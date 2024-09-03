@@ -53,6 +53,7 @@ Linux juga menggunakan berbagai jenis sistem berkas, masing-masing dengan fungsi
    -  Pilih “VDI (VirtualBox Disk Image)” dan klik “Lanjut”.
      
         ![Screenshot (631)](https://github.com/user-attachments/assets/d3cb05ed-632d-4b51-b348-88619093ce4c)
+
         ![Screenshot (630)](https://github.com/user-attachments/assets/63212e35-2af6-42f7-b972-2bd4c8559d77)
 
 
@@ -103,9 +104,20 @@ Linux juga menggunakan berbagai jenis sistem berkas, masing-masing dengan fungsi
 
      
 
-6. **Gunakan Ubuntu:**
-   - **Masuk ke Ubuntu:**  masuk menggunakan akun yang telah dibuat selama instalasi.
-     
+5.  **Masuk ke akun Ubuntu:**
+   - masuk kan password
+
+      ![Gambar WhatsApp 2024-09-03 pukul 08 58 06_295c6f18](https://github.com/user-attachments/assets/5d14047e-3758-4055-b533-e4c35ad54434)
+
+     ![Gambar WhatsApp 2024-09-03 pukul 09 05 31_3ad90778](https://github.com/user-attachments/assets/a12b3049-b075-4403-a004-64175957a136)
+
+
+
+6. **Gunakan Ubuntu**
+   - ubuntu siap digunakan
+
+    ![Gambar WhatsApp 2024-09-02 pukul 16 14 59_90eddb5b](https://github.com/user-attachments/assets/89871499-d184-4433-b3b0-b8c778e5f4a9)
+    
 
 ### Pentingnya saat instalasi memilih “/” pada opsi Mount Point 
    
